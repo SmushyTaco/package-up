@@ -1,5 +1,5 @@
 import process from 'node:process';
-import { findUp, findUpSync } from 'find-up-simple';
+import { findUp, findUpSync } from '@smushytaco/find-up-simple';
 
 /**
  * Options for finding the closest `package.json` file.

@@ -1,6 +1,6 @@
 {
 	"name": "@smushytaco/package-up",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Find the closest package.json file",
 	"license": "MIT",
 	"private": false,
@@ -70,7 +70,7 @@
 		"path"
 	],
 	"dependencies": {
-		"find-up-simple": "^1.0.0"
+		"@smushytaco/find-up-simple": "^1.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "^22.10.5",

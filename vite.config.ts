@@ -16,7 +16,7 @@ export default defineConfig({
             fileName: (format) => (format === 'es' ? 'index.mjs' : 'index.cjs')
         },
         rollupOptions: {
-            external: ['node:process', 'find-up-simple']
+            external: ['node:process', '@smushytaco/find-up-simple']
         },
         sourcemap: true,
         minify: false
