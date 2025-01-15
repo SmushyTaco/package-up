@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install package-up
+npm install @smushytaco/package-up
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install package-up
 
 ```js
 // example.js
-import {packageUp} from 'package-up';
+import {packageUp} from '@smushytaco/package-up';
 
 console.log(await packageUp());
 //=> '/Users/sindresorhus/foo/package.json'
